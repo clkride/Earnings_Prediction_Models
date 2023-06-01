@@ -10,6 +10,11 @@ Used data from compustat and IBES (analyst forecasts) to implement three models 
 
 ## About Data Set
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Project Description
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Author
  @[Abbas S.](https://github.com/clkride)
