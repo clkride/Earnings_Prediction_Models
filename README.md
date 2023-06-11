@@ -9,7 +9,7 @@ Used data from compustat and IBES (analyst forecasts) to implement three models 
 - [Acknowledgments](#acknowledgments)
 
 ## About Data Set
-
+In this project I have used datasets from compustat and IBES. The data is from time period 2009 to 2020. 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Project Description
