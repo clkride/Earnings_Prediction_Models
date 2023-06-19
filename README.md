@@ -1,9 +1,9 @@
+<a name="readme-top"></a>
 # Earnings_Prediction_Models
 Used data from compustat and IBES (analyst forecasts) to implement three models on earnings prediction - HVZ, Earnings Persistence and Residual Income. Further, augmented these models with additional predictors to improve overall accuracy and predict top 10 firms that are most likely to exhibit largest earnings growth in FY'23.
 
 ## Table of Contents
 - [About the Data Set](#about-data-set)
-- [Project Description](#project-description)
 - [Feature Extraction](#feature-extraction)
 - [Model Description](#model-description)
 - [Performance Evaluation](#performance-evaluation)
