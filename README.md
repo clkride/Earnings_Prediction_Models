@@ -6,6 +6,7 @@ Used data from compustat and IBES (analyst forecasts) to implement three models 
 - [Project Description](#project-description)
 - [Feature Extraction](#feature-extraction)
 - [Model Description](#model-description)
+- [Performance Evaluation](#performance-evaluation)
 - [Author](#author)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
@@ -29,8 +30,9 @@ that deviate significantly from other values in the dataset, and they can have a
 
 ## Model Description
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Project Description
+## Performance Evaluation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
