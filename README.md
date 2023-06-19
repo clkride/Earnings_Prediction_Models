@@ -4,6 +4,7 @@ Used data from compustat and IBES (analyst forecasts) to implement three models 
 ## Table of Contents
 - [About the Data Set](#about-data-set)
 - [Project Description](#project-description)
+- [Feature Extraction](#feature-extraction)
 - [Author](#author)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
@@ -15,6 +16,12 @@ In this project I have used the following datasets -
 2. IBES dataset - The next step is the task of downloading the financial data from the IBES database using the WRDS library. The data is filtered based on specific financial data format (EPS) and FPI equals to 1, which indicates actual data. The time range is set between January 2010 and December 2022. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Feature Extraction
+This is a three step process - 
+1. Caculating Financial metrics
+2. Estimating Changes in Financial Metrics
+3. Winsorizing the Dataset
 
 ## Project Description
 
