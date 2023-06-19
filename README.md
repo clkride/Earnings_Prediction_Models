@@ -9,7 +9,11 @@ Used data from compustat and IBES (analyst forecasts) to implement three models 
 - [Acknowledgments](#acknowledgments)
 
 ## About Data Set
-In this project I have used datasets from compustat and IBES. The data is from time period 2009 to 2020. 
+In this project I have used the following datasets - 
+ 1. Compustat dataset - The first step was to download the Compustat dataset using the WRDS library. I have set the required filters, such as industry format, data format, population source, and consolidation level. Also set the time range from January 2009 to December 2023. Post that I merged the company data and the Compustat dataset to get the sic column, and a new column was created to store the first two digits of the SIC column.
+
+2. IBES dataset - The next step is the task of downloading the financial data from the IBES database using the WRDS library. The data is filtered based on specific financial data format (EPS) and FPI equals to 1, which indicates actual data. The time range is set between January 2010 and December 2022. 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Project Description
