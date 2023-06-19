@@ -5,6 +5,7 @@ Used data from compustat and IBES (analyst forecasts) to implement three models 
 - [About the Data Set](#about-data-set)
 - [Project Description](#project-description)
 - [Feature Extraction](#feature-extraction)
+- [Model Description](#model-description)
 - [Author](#author)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
@@ -23,6 +24,10 @@ This is a three step process -
 2. Estimating Changes in Financial Metrics: The changes in variables such as STDebt, CA, CL, Cash, and txp were calculated. The total current accruals (TCA) were calculated using these delta values.
 3. Winsorizing the Dataset: Winsorizing the data is a statistical method used to mitigate the effect of outliers in a dataset. Outliers are values
 that deviate significantly from other values in the dataset, and they can have a significant impact on statistical analysis and modeling.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Model Description
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
