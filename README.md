@@ -19,9 +19,12 @@ In this project I have used the following datasets -
 
 ## Feature Extraction
 This is a three step process - 
-1. Caculating Financial metrics
-2. Estimating Changes in Financial Metrics
-3. Winsorizing the Dataset
+1. Caculating Financial metrics: the key metrics are summarized below for each financial model.
+2. Estimating Changes in Financial Metrics: The changes in variables such as STDebt, CA, CL, Cash, and txp were calculated. The total current accruals (TCA) were calculated using these delta values.
+3. Winsorizing the Dataset: Winsorizing the data is a statistical method used to mitigate the effect of outliers in a dataset. Outliers are values
+that deviate significantly from other values in the dataset, and they can have a significant impact on statistical analysis and modeling.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Project Description
 
