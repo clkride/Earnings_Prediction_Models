@@ -29,7 +29,6 @@ that deviate significantly from other values in the dataset, and they can have a
 
 ## Model Description
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Project Description
 
