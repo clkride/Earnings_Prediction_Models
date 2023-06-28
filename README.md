@@ -47,6 +47,23 @@ The regression coefficients are estimated using the ordinary least squares (OLS)
 in the regression model is 'E_t1_HVZ', while the independent variables used in the model include 'at', 'dvc', 'E_t',
 'dummy_Neg_E_t', and 'ACT'. The params_hvz_model_t1 variable is used to store the estimated coefficients of
 the HVZ model.
+
+
+#### EP Model:
+* dummy_Neg_E_t': This is a dummy variable that takes the value 1 if the earnings surprise (EPS) for the
+current fiscal quarter is negative and 0 otherwise.
+* 'Neg_E_interaction_term': This variable is calculated as the product of 'dummy_Neg_E_t' and the change
+in return on assets (ROA) from the previous year.
+* EPS: Earning per share
+
+The regression coefficients are estimated using the ordinary least squares (OLS) method. The dependent variable
+in the regression model is 'E_t1_EP_RI', while the independent variables used in the model include
+‘dummy_Neg_E_t', 'Neg_E_interaction_term', and 'EPS'. The params_EP_model_t1 variable is used to store the
+estimated coefficients of the EP model.
+
+
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Performance Evaluation
