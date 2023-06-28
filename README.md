@@ -61,7 +61,17 @@ in the regression model is 'E_t1_EP_RI', while the independent variables used in
 ‘dummy_Neg_E_t', 'Neg_E_interaction_term', and 'EPS'. The params_EP_model_t1 variable is used to store the
 estimated coefficients of the EP model.
 
+#### RI Model:
+* 'B_t': This variable represents the book value of equity (total shareholders' equity) at the end of the fiscal
+quarter.
+* 'TACC_t': This variable represents the tax-adjusted change in working capital (current assets - current
+liabilities) from the previous year, divided by total assets at the end of the fiscal quarter. It is used as a
+measure of cash flow management efficiency.
 
+The regression coefficients are estimated using the ordinary least squares (OLS) method. The dependent variable
+in the regression model is 'E_t1_EP_RI', while the independent variables used in the model include
+'dummy_Neg_E_t', 'Neg_E_interaction_term', 'B_t', 'TACC_t'. The params_RI_model_t1 variable is used to store
+the estimated coefficients of the RI model.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
