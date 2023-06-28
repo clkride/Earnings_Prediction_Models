@@ -29,7 +29,24 @@ that deviate significantly from other values in the dataset, and they can have a
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Model Description
+#### HVZ Model:
+* 'at': Total Assets represents the total value of all assets that a company owns or controls. The variable 'at'
+is a financial metric used to measure the size of a company.
+* 'dvc': Debt to Value ratio is a financial metric used to assess the financial leverage of a company. It
+measures the percentage of a company's total capital that is provided by debt. The variable 'dvc' represents
+the ratio of the total amount of debt (both short-term and long-term) to the total market value of the company.
+* 'E_t': Earnings is the net profit that a company generates during a particular period. It is the money that a
+company has left over after paying all its expenses, taxes, and interest.
+* 'dummy_Neg_E_t': It takes the value 1 if the earnings of the company are negative for a particular period,
+and 0 otherwise. It is used to capture the effect of negative earnings on the stock price.
+* 'ACT': Accounts Receivable Turnover is a financial ratio that measures how many times a company can
+convert its accounts receivable into cash during a particular period. It is a measure of the effectiveness of
+a company's credit and collection policies.
 
+The regression coefficients are estimated using the ordinary least squares (OLS) method. The dependent variable
+in the regression model is 'E_t1_HVZ', while the independent variables used in the model include 'at', 'dvc', 'E_t',
+'dummy_Neg_E_t', and 'ACT'. The params_hvz_model_t1 variable is used to store the estimated coefficients of
+the HVZ model.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Performance Evaluation
