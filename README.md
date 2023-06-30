@@ -80,8 +80,8 @@ the estimated coefficients of the RI model.
 
 The mean / median bias helps us in understanding if the model predictions are optimistic or pessimistic. 
 
-* If the mean bias is positive, it means that the model has, on average, overestimated the actual values. In other words, the predicted values are, on average, higher than the actual values. This suggests that the model may be biased towards higher values.
-* On the other hand, if the mean bias is negative, it means that the model has, on average, underestimated the actual values. In other words, the predicted values are, on average, lower than the actual values. This suggests that the model may be biased towards lower values.
+* If the mean bias is positive, it means that the model has, on average, overestimated the actual values. 
+* On the other hand, if the mean bias is negative, it means that the model has, on average, underestimated the actual values. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
