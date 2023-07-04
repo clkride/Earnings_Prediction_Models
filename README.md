@@ -83,22 +83,12 @@ The mean / median bias helps us in understanding if the model predictions are op
 * If the mean bias is positive, it means that the model has, on average, overestimated the actual values. 
 * On the other hand, if the mean bias is negative, it means that the model has, on average, underestimated the actual values. 
 
-|&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;T+1 Model &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
-|---------------------------------------------------------------------------------------------------------------------|
-
-|Metric| &nbsp; HVZ Model &nbsp; | &nbsp; EP Model &nbsp; | &nbsp; RI Model &nbsp;|
-|:-------:|:---------:|:--------:|:--------:|
-|Mean Bias <br /> (p value) | **180.26 <br /> (1.05e-34)** | -200.68 <br /> (3.47e-52) | -198.27 <br /> (2.77e-51)|
-|Median Bias <br /> (p value) | **1.17 <br /> (2.79e-34)** | 1.17 <br /> (9.17e-53) | -0.78 <br /> (6.68e-51)|
-|Mean Accuracy <br /> (p value) | **0.65 <br /> (0.9624)** | 1.19 <br /> (0.5033) | 0.79 <br /> (0.7555)|
-|Median Accuracy <br /> (p value) | **1.12 <br /> (0.9491)** | 1.68 <br /> (0.0972) | 1.44 <br /> (0.3286)|
 #### For T+1 Model
 * From the table, it can be seen that the mean bias of the HVZ model is significantly lower than that of the EP and RI
 models
 * The mean and median accuracy of the HVZ model is both higher than the corresponding measures of
 the RI model
 
-
 |&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;T+1 Model &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
 |---------------------------------------------------------------------------------------------------------------------|
 
@@ -108,11 +98,21 @@ the RI model
 |Median Bias <br /> (p value) | **1.17 <br /> (2.79e-34)** | 1.17 <br /> (9.17e-53) | -0.78 <br /> (6.68e-51)|
 |Mean Accuracy <br /> (p value) | **0.65 <br /> (0.9624)** | 1.19 <br /> (0.5033) | 0.79 <br /> (0.7555)|
 |Median Accuracy <br /> (p value) | **1.12 <br /> (0.9491)** | 1.68 <br /> (0.0972) | 1.44 <br /> (0.3286)|
+
 #### For T+2 Model
-* From the table, it can be seen that the mean bias of the HVZ model is significantly lower than that of the EP and RI
-models
-* The mean and median accuracy of the HVZ model is both higher than the corresponding measures of
-the RI model
+* The HVZ model has a significantly lower mean bias compared to the EP and RI models
+* In terms of accuracy, the HVZ model has a similar or slightly lower mean accuracy compared to the EP and RI models
+
+&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;T+2 Model &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
+|---------------------------------------------------------------------------------------------------------------------|
+
+|Metric| &nbsp; HVZ Model &nbsp; | &nbsp; EP Model &nbsp; | &nbsp; RI Model &nbsp;|
+|:-------:|:---------:|:--------:|:--------:|
+|Mean Bias <br /> (p value) | **32.59 <br /> (0.0014)** | -367.61 <br /> (1.34e-77) | -341.36 <br /> (2.00e-68)|
+|Median Bias <br /> (p value) | **0.37 <br /> (0.0012)** | 2.43 <br /> (1.43e-78) | -10.80 <br /> (2.09e-64)|
+|Mean Accuracy <br /> (p value) | **0.60 <br /> (0.9634)** | 1.73 <br /> (0.4066) | 4.06 <br /> (0.5177)|
+|Median Accuracy <br /> (p value) | **0.92 <br /> (0.9699)** | 0.87 <br /> (0.3309) | 0.84 <br /> (0.4967)|
+
 
 
 
