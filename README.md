@@ -114,6 +114,19 @@ the RI model
 |Median Accuracy <br /> (p value) | **0.92 <br /> (0.9699)** | 0.87 <br /> (0.3309) | 0.84 <br /> (0.4967)|
 
 
+#### For T+3 Model
+* From the table, we can see that the RI model has the lowest mean and median bias compared to the other two models
+* In terms of accuracy, the RI model has a lower mean bias compared to the HVZ model, although the difference is not statistically significant. However, the HVZ model has a negative mean accuracy, which indicates that its predictions are on average further from the actual values. The EP model also has a negative mean accuracy, although it is not statistically significant.
+
+&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;T+3 Model &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
+|---------------------------------------------------------------------------------------------------------------------|
+
+|Metric| &nbsp; HVZ Model &nbsp; | &nbsp; EP Model &nbsp; | &nbsp; RI Model &nbsp;|
+|:-------:|:---------:|:--------:|:--------:|
+|Mean Bias <br /> (p value) | 22.82 <br /> (0.122) | -462.25 <br /> (3.57e-56) | **-415.36 <br /> (6.61e-54)**|
+|Median Bias <br /> (p value) | 2.17 <br /> (0.162) | 0.54 <br /> (2.57e-65) |**-16.71 <br /> (6.26e-50)**|
+|Mean Accuracy <br /> (p value) | -46.45 <br /> (0.257) | -2.75 <br /> (0.3798) |**-26.09 <br /> (0.3076)**|
+|Median Accuracy <br /> (p value) | 0.829 <br /> (0.259) | 0.43 <br /> (0.4553) |**0.57 <br /> (0.3153)**|
 
 
 
