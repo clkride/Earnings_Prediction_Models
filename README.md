@@ -129,6 +129,16 @@ the RI model
 |Median Accuracy <br /> (p value) | 0.829 <br /> (0.259) | 0.43 <br /> (0.4553) |**0.57 <br /> (0.3153)**|
 
 
+Once, we have selected one model each for t+1, t+2 and t+3, we’d now create these additional predictors to
+augment our original models in an attempt to improve our model forecast accuracy. The additional predictors that
+we’re going to add to each of these models are as follows:
+* **Total Debt** - A financial metric that represents the sum of a company's long-term and short-term debt obligations.
+* **Dividend payout ratio** - The proportion of a company's net income that is distributed to shareholders as dividends.
+* **Sales growth** - A measure of the increase or decrease in a company's revenue over a specified period of time.
+* **Return on assets** - A financial ratio that measures a company's profitability by comparing its net income to its total assets.
+* **Debt-to-equity ratio** - A financial ratio that compares a company's total debt to its total equity. It is used to evaluate a company's leverage and risk.
+* **Cash flow from operations** - The amount of cash generated or used by a company's operations, excluding financing, and investing activities.
+* **Research and development expenses** - The costs associated with developing new products, processes, or technologies to maintain or improve a company's competitive position.
 
 
 
