@@ -140,8 +140,19 @@ we’re going to add to each of these models are as follows:
 * **Cash flow from operations** - The amount of cash generated or used by a company's operations, excluding financing, and investing activities.
 * **Research and development expenses** - The costs associated with developing new products, processes, or technologies to maintain or improve a company's competitive position.
 
+The summary statistics with modified approaches is summarized below for each t+1, t+2 and t+3 analysis.
 
 
+&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp;T+1 (HVZ Model) &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; T+2 (HVZ Model) &nbsp;  |&nbsp; &nbsp; &nbsp; &nbsp;T+3 (RI Model) &nbsp; &nbsp;&nbsp;&nbsp; |
+|-------------------------|---------------------------------|------------------------------|-----------------------------|
+
+|Metric| Previous | Modified | Previous | Modified | Previous | Modified |
+|:-------:|:---------:|:--------:|:--------:|:---------:|:--------:|:--------:|
+|R Square | 0.603 | **0.830** | 0.550 | **0.679** | 0.521 | **0.964** |
+|Mean Bias <br /> (p value) | 180.26 <br /> (1.05e-34) | **98.96 <br /> (1.15e-05)** | 32.59 <br /> (0.0014)|**-160.88 <br /> (6.15e-10)** | -415.36 <br/> (6.61e-54) | **-722.00 <br/> (2.25e-25)**|
+|Median Bias <br /> (p value) | 1.17 <br /> (2.79e-34) | **8.68 <br /> (6.29e-05)** | 0.37 <br /> (0.0012)| **16.45 <br/> (9.41e-12)**| -16.71 <br/> (6.26e-50)| **-27.80 <br/>(1.30e-23)**|
+|Mean Accuracy <br /> (p value) | 0.65 <br /> (0.9624) | **1.47 <br /> (0.5850)** | 0.60 <br /> (0.9634)| **-0.81 <br/>(0.6816)**|-26.09 <br/> (0.3076)|**-2.23 <br/>(0.3436)**|
+|Median Accuracy <br /> (p value) | 1.12<br/>(0.9491) |**0.95<br/>(0.5487)** |0.92<br/>(0.9699)|**0.82<br/>(0.7111)**|0.57<br/>(0.3153)|**0.15<br/>(0.4842)|
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
