@@ -8,6 +8,7 @@ Used data from compustat and IBES (analyst forecasts) to implement three models 
 - [Model Description](#model-description)
 - [Performance Evaluation](#performance-evaluation)
 - [Conclusion](#conclusion)
+- [Selecting Top 10 Stocks](#selecting-top-10-stocks)
 - [Author](#author)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
@@ -163,6 +164,18 @@ The summary statistics with modified approaches is summarized below for each t+1
 * For **T+3 model**, the modified RI model is better then the previous model because it results in a significantly higher R-squared value, indicating a better fit between the model and the data. Additionally, the mean and median biases have improved significantly, with the mean bias changing from a highly negative value to a much smaller positive value. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Selecting Top 10 Stocks
+
+**Earnings growth and the top 10 firms:**
+Earnings growth refers to the rate at which a company's earnings increase over time. A positive earnings growth rate means that a company's earnings have increased, while a negative growth rate means that earnings have decreased.
+Earnings growth calculation: (predicted_earnings_2023 - E_t) / E_t
+Unit: The unit of earnings growth is typically a percentage or a ratio.
+* predicted_earnings_2023: the earnings predicted by the model for 2023
+* E_t: the actual earnings in 2022
+ 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## Author
  @[Abbas S.](https://github.com/clkride)
