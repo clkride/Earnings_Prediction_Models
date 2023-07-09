@@ -169,8 +169,11 @@ The summary statistics with modified approaches is summarized below for each t+1
 
 **Earnings growth and the top 10 firms:**
 Earnings growth refers to the rate at which a company's earnings increase over time. A positive earnings growth rate means that a company's earnings have increased, while a negative growth rate means that earnings have decreased.
+
 Earnings growth calculation: (predicted_earnings_2023 - E_t) / E_t
+
 Unit: The unit of earnings growth is typically a percentage or a ratio.
+
 * predicted_earnings_2023: the earnings predicted by the model for 2023
 * E_t: the actual earnings in 2022
  
