@@ -7,6 +7,7 @@ Used data from compustat and IBES (analyst forecasts) to implement three models 
 - [Feature Extraction](#feature-extraction)
 - [Model Description](#model-description)
 - [Performance Evaluation](#performance-evaluation)
+- [Conclusion](#conclusion)
 - [Author](#author)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
@@ -153,6 +154,13 @@ The summary statistics with modified approaches is summarized below for each t+1
 |Median Bias <br /> (p value) | 1.17 <br /> (2.79e-34) | **8.68 <br /> (6.29e-05)** | 0.37 <br /> (0.0012)| **16.45 <br/> (9.41e-12)**| -16.71 <br/> (6.26e-50)| **-27.80 <br/>(1.30e-23)**|
 |Mean Accuracy <br /> (p value) | 0.65 <br /> (0.9624) | **1.47 <br /> (0.5850)** | 0.60 <br /> (0.9634)| **-0.81 <br/>(0.6816)**|-26.09 <br/> (0.3076)|**-2.23 <br/>(0.3436)**|
 |Median Accuracy <br /> (p value) | 1.12<br/>(0.9491) |**0.95<br/>(0.5487)** |0.92<br/>(0.9699)|**0.82<br/>(0.7111)**|0.57<br/>(0.3153)|**0.15<br/>(0.4842)|
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Conclusion
+* For **T+1 model**, the addition of predictors to original HVZ model improves R-squared value from 0.603 to 0.830 and decreases the mean bias by almost 50% from 180.26 to 98.96, indicating that it is a better model than the previous one.
+* For **T+2 model**, the modified HVZ model with extra predictors performs better than the previous approach in terms of R-squared, median bias, and median accuracy. 
+* For **T+3 model**, the modified RI model is better then the previous model because it results in a significantly higher R-squared value, indicating a better fit between the model and the data. Additionally, the mean and median biases have improved significantly, with the mean bias changing from a highly negative value to a much smaller positive value. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
