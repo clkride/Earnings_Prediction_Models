@@ -176,6 +176,22 @@ Unit: The unit of earnings growth is typically a percentage or a ratio.
 
 * predicted_earnings_2023: the earnings predicted by the model for 2023
 * E_t: the actual earnings in 2022
+
+The top 10 firms predicted to have the largest earnings growth in 2023 are as follows:
+
+|GVKEY| Predicted Earnings Growth | Company |
+|:-------:|:---------:|:--------:|
+| 016564 | 8877.49 | Wall Street Media Co |
+| 001718 | 3031.38 | Advanced Oxygen Technology |
+| 175548 | 927.86 | Nexgenrx Inc |
+| 017349 | 337.16 | Skkynet Cloud Systems Inc |
+| 024368 | 125.69 | Retail Holdings NV |
+| 021563 | 108.65 | Electronic System Tech Inc |
+| 060801 | 105.98 | Socket Mobile Inc |
+| 143788 | 102.29 | Reflect Scientific Inc |
+| 001783 | 97.65 | Arts Way MFG Inc|
+| 011372 | 80.21 | New Concept Energy Inc|
+
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
