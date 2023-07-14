@@ -2,6 +2,8 @@
 
 
 ![Bitbucket open issues](https://img.shields.io/github/issues/clkride/Earnings_Prediction_Models?style=flat-square)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/clkride/Earnings_Prediction_Models?style=flat-square)
+![GitHub contributors](https://img.shields.io/github/contributors/clkride/Earnings_Prediction_Models?style=flat-square)
 <a href="https://linkedin.com/in/abbas-singapurwala">
 <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue">
 </a>
