@@ -1,5 +1,7 @@
 <a name="readme-top"></a>
 
+
+![Bitbucket open issues](https://img.shields.io/github/issues/clkride/Earnings_Prediction_Models?style=flat-square)
 <a href="https://linkedin.com/in/abbas-singapurwala">
 <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue">
 </a>
